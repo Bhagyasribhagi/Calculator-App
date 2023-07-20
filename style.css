@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: url(calcu\ img\ 2.jpg);
+}
+.head{
+    padding-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.heading{
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-family: "roboto" ;
+
+}
+
+@media screen and (max-width:678px){
+    .heading{
+        font-size: 30px;
+    }
+}
+
+
+.calculator{
+    border: 3px dotted rgb(255, 115, 0);
+    padding: 50px;
+    border-radius: 50px;
+    background: transparent;
+    box-shadow: 0px 0px 20px indigo;
+    background:rgb(216, 207, 207);   
+}
+
+input{
+    width: 100%;
+    border: 3px double rgb(167, 190, 81);
+    margin: 15px;
+    padding: 15px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgb(55, 54, 55);
+    font-size: 20px;
+    color: black;
+    text-decoration: wavy;
+    text-align: right;
+    border-radius: 20px;
+    
+    cursor: pointer;
+}
+
+input ::placeholder{
+    color: white;
+}
+.con{
+        padding: 50px;
+    }
+/* @media  screen and (max-width:768px) {
+    .con{
+        height: 20vh;
+        width: 30vw;
+    }
+} */
+
+button{
+    border:none;
+    width: 60px;
+    height: 60x;
+    margin: 12px;
+    padding: 10px;
+    border-radius:50% ;
+    background:transparent;
+    color: black;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px indigo;
+    cursor: pointer;
+
+}
+
+.equalbtn{
+    background-color: rgb(229, 236, 25);
+    color: brown;
+    font-weight: bold;
+}
+.operator{
+    color:rgb(234, 13, 13);
+    background-color: rgb(236, 236, 153);
+    font-weight: bold;
+}
+.keys{
+    background-color: rgb(214, 221, 137);
+    font-weight: bold;
+    color: red;
+}
